@@ -11,7 +11,7 @@ Use this repository to document everything you learn during the #100DaysOfCode i
 > Practise Data Structures and Algorithms every other week
 > First two weeks plan drafted, will add subsequent weeks based on how those go
 
-> tomato timer at lease 20 minutes each day
+> tomato timer at least 20 minutes each day
 
 ## General Topics to cover
 
