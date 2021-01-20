@@ -5,7 +5,7 @@ body {
 
 body {
   display: grid;
-  grid-template-columns: 15em auto 15em;
+  grid-template-columns: 20% auto 20%;
   grid-template-rows: min-content auto min-content;
 }
 
