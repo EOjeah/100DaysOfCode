@@ -5,12 +5,29 @@ body {
 
 body {
   display: grid;
-  grid-template-columns: 20% auto 20%;
   grid-template-rows: min-content auto min-content;
+  grid-template-columns: 15em 1fr 1fr;
+  grid-template-areas:
+    'header header header'
+    'sidenav main aside'
+    'footer footer footer';
 }
 
-header,
+header {
+  grid-area: header;
+}
+
+nav {
+  grid-area: sidenav;
+}
+
+aside {
+  grid-area: aside;
+}
+main {
+  grid-area: main;
+}
+
 footer {
-  grid-column-start: 1;
-  grid-column-end: 4;
+  grid-area: footer;
 }

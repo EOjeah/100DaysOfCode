@@ -101,3 +101,56 @@ can use the code above instead of
 `grid-auto-rows: track-size` specifies the size of any implicitly-created rows
 
 `grid-gap: row-gap column-gap` or use one value to represent both if there're the same
+
+## Day #2
+
+so far you can create a 8 column grid and and tell an item to occupy the whole row with `grid-column: 1 / 8` but you can also use -1 instead of 8 like `grid-column: 1 / -1`
+
+![Image of grid posititioning with -1](https://github.com/EOjeah/100DaysOfCode/blob/main/1-wk/images/grid_1.png)
+
+can use `grid-column-end: span 2;` to span two columns
+
+`span` keyword instructs a grid item to span a certain number of tracks
+
+`grid-area: row-start / row-end / column-start / column-end` -- meh don't use this
+
+> You can only align an item when it's inside a container that has extra space
+
+![Image of body not 100% by default](https://github.com/EOjeah/100DaysOfCode/blob/main/1-wk/images/height_not_100.png)
+
+adjust html and body to 100% and now you can align vertically as well as horizontally
+
+`justify-content` and `align-content` will move the grid around without affeting the contents of the grid itself
+
+![Justify and align-content: center](https://github.com/EOjeah/100DaysOfCode/blob/main/1-wk/images/justify_align_center.png)
+
+`justify-content` and `align-content` have the same possible properties
+
+- start (default)
+- center
+- end
+- space-around
+- space-between
+- space-evenly
+
+`justify-items` and `align-items` will position the content of each item within the cell
+
+Naming Grid Lines
+
+![Justify and align-content: center](https://github.com/EOjeah/100DaysOfCode/blob/main/1-wk/images/naming_grid_lines.png)
+
+![Grid column names](https://github.com/EOjeah/100DaysOfCode/blob/main/1-wk/images/grid_column_names.png)
+
+Grid template areas
+![Grid tempate areas](https://github.com/EOjeah/100DaysOfCode/blob/main/1-wk/images/grid_template_areas.png)
+
+You can define an empty area by having elipsis
+
+```css
+[grid container] {
+  grid-template-area:
+    'area1 ... ...'
+    'area2 area2 ...'
+    'area3 area3 area3';
+}
+```
