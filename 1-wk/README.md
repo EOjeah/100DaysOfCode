@@ -102,7 +102,7 @@ can use the code above instead of
 
 `grid-gap: row-gap column-gap` or use one value to represent both if there're the same
 
-## Day #2
+## Day #3
 
 so far you can create a 8 column grid and and tell an item to occupy the whole row with `grid-column: 1 / 8` but you can also use -1 instead of 8 like `grid-column: 1 / -1`
 
