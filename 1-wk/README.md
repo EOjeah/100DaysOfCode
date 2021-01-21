@@ -154,3 +154,15 @@ You can define an empty area by having elipsis
     'area3 area3 area3';
 }
 ```
+
+## Day #4 :smile: Creating Responsive Pages with CSS FlexBox [Pluralsight](https://app.pluralsight.com/library/courses/css-flexbox-creating-responsive-pages/table-of-contents)
+
+> understand the basics of flexbox in the pluralsight video with link above
+
+![Flexbox overview](https://github.com/EOjeah/100DaysOfCode/blob/main/1-wk/images/flexbox_overview.png)
+
+![Flexbox properties](https://github.com/EOjeah/100DaysOfCode/blob/main/1-wk/images/flex_containers.png)
+
+[css-triks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+
+not much of an update but there are some useful resources here to learn about the flexbox model for css
