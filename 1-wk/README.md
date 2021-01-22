@@ -166,3 +166,41 @@ You can define an empty area by having elipsis
 [css-triks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 
 not much of an update but there are some useful resources here to learn about the flexbox model for css
+
+## Day #5
+
+not really in the mood today but will try 20 minutes
+the pluralsight course is not very good, moving back to youtube
+[Learn Flexbox in 15 minutes](https://www.youtube.com/watch?v=fYq5PXgSsbE)
+
+in flexbox, `align-items: stretch` is the default config for flex items, means the items will stretch to fill the most amount of space vertically that they can
+
+to preserve the height of the items use `align-items: flex-start`
+
+the flex items automatically resize based on the size of the parent container or window, you can assign a property to the individual items to prevent the size from changing. Use `flex-shrink: 0` for this
+
+use `flex-grow: 1` to tell a flex item to fill the remaining space in the contianer
+
+what `flex-grow` actually does is divide the remaining space in the container relative to the items fles grow number.
+
+For example
+
+```css
+[flex item-a] {
+  flex-grow: 1;
+}
+```
+
+```css
+[flex item-b] {
+  flex-grow: 2;
+}
+```
+
+> item-b will grow twice as much as item-a to fill up the remaining space in the flex container
+
+use `flex-basis` to tell the flex item where to start growing from, setting `flex-basis: 0` on both item-a and item-b then both items will starting growing from 0 pixels and item-b will be twice as large as item-a. Also lookup `flex-shrink`
+
+`align-self: center` will ovewride the default vertical alignment (from containers `align-item` property) of the flex item, assigned by
+
+change the order of flex items with `order: <number>` number indicating the position of the flex item in the flex container - highly advised not to use for screenreaders and pressing tab on the html
