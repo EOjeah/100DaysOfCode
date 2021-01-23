@@ -204,3 +204,31 @@ use `flex-basis` to tell the flex item where to start growing from, setting `fle
 `align-self: center` will ovewride the default vertical alignment (from containers `align-item` property) of the flex item, assigned by
 
 change the order of flex items with `order: <number>` number indicating the position of the flex item in the flex container - highly advised not to use for screenreaders and pressing tab on the html
+
+## Day #6 Styling websites with CSS [Pluralsight](https://app.pluralsight.com/library/courses/styling-websites-css/table-of-contents)
+
+moving on from css flexbox and grid to styling websites with css on pluralsight
+
+There are 3 different methods for adding CSS to a webpage/website; embedded, inline and external
+
+first two modules on the pluralsight course shows how to add styles to your page and basic intro to css, can skip...
+
+> Styling Text
+
+changin the size of text `font-size` default is `16px`. can change the weight of the text wih `font-weight` for value, you can use values or pre-defined words (e.g normal)
+
+can change the style of text with `font-style` e.g `italic, normal or oblique`
+
+change the amount of white space in or around text. `line-height: 1` if your font-size is 16px then `line-height` will be 16px, for line height of 2 then it'll be 32px and so on. you can also use the static value of `line-height: 16px` if you wanted. For easy text visibility, use `line-height: 1.5`
+
+change the space between individual characters with `letter-space: 2px`
+
+change the alignment of text within a container with `text-align : center|left|right|justify(similar to MS word justify)`.
+
+use `text-transform: capitalize|full-width|inherit|lowercase|none|uppercase` to alter texts
+
+change font you use with `font-family` can use a list and webpage will apply ifs statement from left and if not installed on OS continue, that kinda thing e.g. `font-family: Verdana, Arial, sans-serif`
+
+![Websafe fonts](https://github.com/EOjeah/100DaysOfCode/blob/main/1-wk/images/websafe_fonts.png)
+
+> lookup font compactibility with operating systems with [CSS Font stack](https://www.cssfontstack.com/)
