@@ -281,5 +281,3 @@ tr:nth-of-type(odd|even) {
 ```
 
 ![other pseudo classes fonts](https://github.com/EOjeah/100DaysOfCode/blob/main/1-wk/images/pseudo_classes.png)
-
-git add . && git commit -m "docs: :memo: Document Day 7 of 100" && git tag -a v7 -m "Document day 7/100" && git push && git push origin v7
