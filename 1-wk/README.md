@@ -232,3 +232,54 @@ change font you use with `font-family` can use a list and webpage will apply ifs
 ![Websafe fonts](https://github.com/EOjeah/100DaysOfCode/blob/main/1-wk/images/websafe_fonts.png)
 
 > lookup font compactibility with operating systems with [CSS Font stack](https://www.cssfontstack.com/)
+
+## Day #7
+
+going on with the pluralsight course from day 6, most of the module today teaches me concepts i already know but will document things that may be new on here today
+
+the css `border` and `outline` properties are very similar
+
+The Box model
+
+padding of an element gets added to the render box, adds to the elements width and height, border gets added outside of the padding and also affects the width and height of the element. margin gets added as whitespace of the element and don't add to the elements width and height
+
+![The Box Model](https://github.com/EOjeah/100DaysOfCode/blob/main/1-wk/images/the_box_model.png)
+
+course goes through using selectors in css, already know about classes and IDs
+
+> pseudo-class: selectors based on elements state or position for example :hover
+
+```css
+.class-selector a:hover {
+  color: red;
+}
+```
+
+> change the color of anchors (links) in .class-selector to `red` when the mouse hovers on that link
+
+> [Pseudo-classes](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes)
+
+```css
+tr:nth-of-type(2) {
+  color: red;
+}
+```
+
+above code selects the 2nd row in a table and changes the color to red using pseudo selectors based on position
+
+| Syntax   | Description |   Test Text |
+| :------- | :---------: | ----------: |
+| Header   |    Title    | Here's this |
+| this row |   will be   |         Red |
+
+in addition to specifying numbers like 2, you can also use keywords like `odd` and `even`
+
+```css
+tr:nth-of-type(odd|even) {
+  color: red;
+}
+```
+
+![other pseudo classes fonts](https://github.com/EOjeah/100DaysOfCode/blob/main/1-wk/images/pseudo_classes.png)
+
+git add . && git commit -m "docs: :memo: Document Day 7 of 100" && git tag -a v7 -m "Document day 7/100" && git push && git push origin v7
