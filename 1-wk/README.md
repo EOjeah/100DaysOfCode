@@ -281,3 +281,7 @@ tr:nth-of-type(odd|even) {
 ```
 
 ![other pseudo classes fonts](https://github.com/EOjeah/100DaysOfCode/blob/main/1-wk/images/pseudo_classes.png)
+
+extra bits to complete 4 hours on pluralsight this week. new css property i found
+
+[padding inline start](https://developer.mozilla.org/en-US/docs/Web/CSS/padding-inline-start)
