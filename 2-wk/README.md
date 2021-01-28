@@ -147,7 +147,7 @@ console.log('Actual:  \t' + firstRecurringCharacter(data4));
 ```
 
 _Issues?_
-Having to convert an array into a set in the first place has a time complexity of O(n) and as long as there are items in the array, that will always be the best case scenario :sad:
+Having to convert an array into a set in the first place has a time complexity of O(n) and as long as there are items in the array, that will always be the best case scenario :pensive:
 
 Next Try, using objects as below
 
