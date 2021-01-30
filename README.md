@@ -49,7 +49,14 @@ Use this repository to document everything you learn during the #100DaysOfCode i
   - [Dev Ed](https://www.youtube.com/c/DevEd) mainly use this channel for frontend stuff as he explains really well, all with short projects you can follow along to get some practice
   - [Traversy Media](https://www.youtube.com/user/TechGuyWeb) Collaborates with other youtubers and covers just about anything wed development
   - [Hussein Nasser](https://www.youtube.com/user/GISIGeometry) explains backend engineering concepts, for example what SSL certificates, Kafka, Nginx and much more
-- PluralSight, Udemy, freeCodeCamp
+- PluralSight
+  - [Advanced React](https://app.pluralsight.com/library/courses/reactjs-advanced/table-of-contents) Not finsihed this course yet becasue I watch for a while and gets really complicated so i come back, go through videos I've already covered so I can actually fully understand the concepts. Will hopefully start and finish this course a few times
+  - _more here_
+- Udemy
+  - [Master the Coding Interview](https://www.udemy.com/course/master-the-coding-interview-data-structures-algorithms/)
+- freeCodeCamp
+  - _list here_
+- [Just Javascript](justjavascript.com). Claims he'll help draw a mental model that will help in learning Javascript and does that really well!!. I wasn't sure how an incomplete book (sent as chapters via email) was goig to help but this is by far the best resource to help create that mental model for Javascript. Hopefully he has time to complete the book. by Dan Abramov, creator of Redux and co creator of create-react-app
 
 ## Managment
 
