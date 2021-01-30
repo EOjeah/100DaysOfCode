@@ -163,3 +163,102 @@ let map = {}
 ```
 
 ## Day 12 Linked Lists!
+
+Vusualize data structures and algorithms from this site [Visual Go](https://visualgo.net/en)
+
+somehow got distracted and decided to go on stackoverflow and submitted a few responses
+
+[elasticsearch](https://stackoverflow.com/questions/65962514/elasticsearch-retrieve-only-document-id-where-field-doesnt-exist/65963539#65963539)
+
+[react](https://stackoverflow.com/questions/65964149/how-can-i-get-dropdown-options-populated-from-state/65964229?noredirect=1#comment116629825_65964229)
+
+[javascript](https://stackoverflow.com/questions/65964253/event-listener-targeting-all-elements-on-filtering-method)
+
+Got +10 points for the react answer! nothing yet about my reponse to the elasticsearch question (it's 3am on a Saturday morning, wild night!) the gf sleeping on the bed next to me, do I wake her to join me on this :thinking:?
+
+Implemented a basic Linked list in Javascript with clas methods for `insert(idnex, value)`, `append(value)`, `prepend(value)` and `remove(index)`
+
+```javascript
+class LinkedList {
+  constructor(value) {
+    this.head = {
+      value: value,
+      next: null,
+    };
+    this.tail = this.head;
+    this.length = 1;
+  }
+
+  prepend(value) {
+    const newNode = {
+      value,
+      next: null,
+    };
+    newNode.next = this.head;
+    this.head = newNode;
+    this.length++;
+  }
+
+  append(value) {
+    let newNode = {
+      value: value,
+      next: null,
+    };
+    this.tail.next = newNode;
+    this.tail = newNode;
+    this.length += 1;
+    return this;
+  }
+
+  insert(index, value) {
+    if (index >= this.length) {
+      this.append(value);
+      return this;
+    } else if (index < 1) {
+      this.prepend(value);
+      return this;
+    }
+    const newNode = {
+      value,
+      next: null,
+    };
+    let preNode = this.head;
+    for (let i = 0; i < index - 1; i++) {
+      preNode = preNode.next;
+    }
+    newNode.next = preNode.next;
+    preNode.next = newNode;
+    this.length++;
+  }
+
+  remove(index) {
+    if (index >= this.length || index < 0) {
+      return 'Out of Bounds Error';
+    }
+    let preNode = this.head;
+    for (let i = 0; i < index - 1; i++) {
+      preNode = preNode.next;
+    }
+    let currentNode = preNode.next;
+    preNode.next = currentNode.next;
+    if (index === this.length - 1) {
+      this.tail = preNode;
+    }
+    this.length--;
+  }
+}
+// 10->50->16->89
+// 0   1   2   3
+let myLinkedList = new LinkedList(10);
+myLinkedList.append(50);
+myLinkedList.append(16);
+myLinkedList.append(89);
+// myLinkedList.insert(1, 100)
+// myLinkedList.insert(2, 2)
+myLinkedList.remove(3);
+console.log(JSON.stringify(myLinkedList, null, 2));
+```
+
+> [repl it](https://repl.it/@EOjeah/MatureFrenchComputationalscience#index.js)
+
+## Day 13 LinkedList continue (Doubly Linked Lists)
