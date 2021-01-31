@@ -262,3 +262,111 @@ console.log(JSON.stringify(myLinkedList, null, 2));
 > [repl it](https://repl.it/@EOjeah/MatureFrenchComputationalscience#index.js)
 
 ## Day 13 LinkedList continue (Doubly Linked Lists)
+
+Implemented a doubly linked list with the same functions as the provious single linked list (`append`, `prepend`, `insert` and `remove`)
+
+> [Code](https://repl.it/@eojeah/clumsyacidicmouse#index.js)
+
+```javascript
+class DoubleLinkedList {
+  constructor(value) {
+    this.head = new Node(value);
+    this.tail = this.head;
+    this.length = 1;
+  }
+
+  append(value) {
+    let newNode = new Node(value);
+    this.tail.next = newNode;
+    newNode.previous = this.tail;
+    this.tail = newNode;
+    this.length++;
+  }
+
+  preprend(value) {
+    let newNode = new Node(value);
+    this.head.previous = newNode;
+    newNode.next = this.head;
+    this.head = newNode;
+    this.length++;
+  }
+
+  insert(index, value) {
+    if (index < 1) {
+      this.preprend(value);
+      return this;
+    }
+    if (index >= this.length - 1) {
+      this.append(value);
+      return this;
+    }
+    const newNode = new Node(value);
+    let refNode = this.head;
+    let count = 0;
+    while (count < index - 1) {
+      refNode = refNode.next;
+    }
+    refNode.next.previous = newNode;
+    newNode.next = refNode.next;
+    refNode.next = newNode;
+    newNode.previous = refNode;
+    this.length++;
+  }
+  remove(index) {
+    if (index === 0) {
+      this.head = this.head.next;
+      this.head.previous = null;
+      this.length--;
+      return this;
+    }
+    if (index === this.length - 1) {
+      this.tail = this.tail.previous;
+      this.tail.next = null;
+      this.length--;
+      return this;
+    }
+    let currNode = this.head.next;
+    let count = 1;
+    while (count < index - 1) {
+      currNode = currNode.next;
+    }
+    this.length--;
+    currNode.previous.next = currNode.next;
+    currNode.next.previous = currNode.previous;
+  }
+
+  printList() {
+    let list = {
+      values: [],
+      length: undefined,
+    };
+    let currNode = this.head;
+    for (let i = 0; i < this.length; i++) {
+      list.values.push(currNode.value);
+      currNode = currNode.next;
+    }
+    list.length = this.length;
+    console.log(list);
+  }
+}
+
+class Node {
+  constructor(value) {
+    this.value = value;
+    this.next = null;
+    this.previous = null;
+  }
+}
+
+let myLinkedList = new DoubleLinkedList(10);
+myLinkedList.append(7);
+myLinkedList.preprend(99);
+myLinkedList.insert(-1, 8);
+myLinkedList.insert(99, 4);
+myLinkedList.insert(1, 20);
+myLinkedList.remove(5);
+myLinkedList.remove(1);
+myLinkedList.printList();
+```
+
+## Day 14 continue with Udemy course
