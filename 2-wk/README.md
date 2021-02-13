@@ -265,7 +265,7 @@ console.log(JSON.stringify(myLinkedList, null, 2));
 
 Implemented a doubly linked list with the same functions as the provious single linked list (`append`, `prepend`, `insert` and `remove`)
 
-> [Code](https://repl.it/@eojeah/clumsyacidicmouse#index.js)
+> [Code](https://repl.it/@EOjeah/ClumsyAcidicMouse#index.js)
 
 ```javascript
 class DoubleLinkedList {

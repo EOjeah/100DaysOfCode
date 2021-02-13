@@ -80,3 +80,7 @@ Stack on Udemy course
 implemented a stack with methods `peek` `pop` and `push` using Linked list
 
 Was difficult at first because I had the wrong idea. I tried implementing as a linked list but pointing in the wrong direction but much easier after making them point in the correct direction
+
+![Stack with Linked list](https://github.com/EOjeah/100DaysOfCode/blob/main/4-wk/images/stack_linked_list.png)
+
+> [Code](https://repl.it/@EOjeah/ModestReadyObjectpool#index.js)
