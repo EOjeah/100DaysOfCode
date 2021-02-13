@@ -84,3 +84,9 @@ Was difficult at first because I had the wrong idea. I tried implementing as a l
 ![Stack with Linked list](https://github.com/EOjeah/100DaysOfCode/blob/main/4-wk/images/stack_linked_list.png)
 
 > [Code](https://repl.it/@EOjeah/ModestReadyObjectpool#index.js)
+
+Queue
+
+![Queue with Linked list](https://github.com/EOjeah/100DaysOfCode/blob/main/4-wk/images/queue_linked_list.png)
+
+[SneakyDodgerblueVirus](https://repl.it/@EOjeah/SneakyDodgerblueVirus#index.js)
