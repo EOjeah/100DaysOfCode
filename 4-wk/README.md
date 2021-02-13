@@ -70,3 +70,13 @@ after getting inspiration from the instructor, wrote down my solution to underst
 so much cleaner after changing algorithms and better to understand the code
 
 Mind map for mastering the coding interview https://coggle.it/diagram/W5E5tqYlrXvFJPsq/t/master-the-interview-click-here-for-course-link
+
+day 25
+Worked on chef! spinning up an elasticsearch cluster in a test kitchen, creating a certificate authority and signing to get crt and key files
+
+day 26
+
+Stack on Udemy course
+implemented a stack with methods `peek` `pop` and `push` using Linked list
+
+Was difficult at first because I had the wrong idea. I tried implementing as a linked list but pointing in the wrong direction but much easier after making them point in the correct direction
