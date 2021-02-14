@@ -90,3 +90,21 @@ Queue
 ![Queue with Linked list](https://github.com/EOjeah/100DaysOfCode/blob/main/4-wk/images/queue_linked_list.png)
 
 [SneakyDodgerblueVirus](https://repl.it/@EOjeah/SneakyDodgerblueVirus#index.js)
+
+Queue implementation is very similar to Stack and I was much quicker implementing this because I just solved Stacks DS
+
+day 27 13 Feb 2021
+
+[Implement Queue using Stacks Leetocde](https://leetcode.com/problems/implement-queue-using-stacks/description/)
+
+![Tree Data Structure](https://github.com/EOjeah/100DaysOfCode/blob/main/4-wk/images/tree_data_structure.png)
+
+Trees
+
+- Binary Tree is a type of tree with some chareacteristics
+
+Each node can either have 0, 1 or 2 nodes and each child can only have one parent
+
+![Binary Tree](https://github.com/EOjeah/100DaysOfCode/blob/main/4-wk/images/binary_tree.png)
+![Perfect Binary Tree](https://github.com/EOjeah/100DaysOfCode/blob/main/4-wk/images/perfect_binary_tree.png)
+![Binary SearchTree time Complexity](https://github.com/EOjeah/100DaysOfCode/blob/main/4-wk/images/bst_time.png)
