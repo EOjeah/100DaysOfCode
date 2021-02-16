@@ -108,3 +108,7 @@ Each node can either have 0, 1 or 2 nodes and each child can only have one paren
 ![Binary Tree](https://github.com/EOjeah/100DaysOfCode/blob/main/4-wk/images/binary_tree.png)
 ![Perfect Binary Tree](https://github.com/EOjeah/100DaysOfCode/blob/main/4-wk/images/perfect_binary_tree.png)
 ![Binary SearchTree time Complexity](https://github.com/EOjeah/100DaysOfCode/blob/main/4-wk/images/bst_time.png)
+
+day 28 14 Feb 2021
+
+Home page for [spotify-landing-page](https://eojeah.github.io)
