@@ -114,3 +114,5 @@ Took a break from Data Structures on Udemy to watch a youtube video on designing
 [Figma Design](https://www.figma.com/files/project/24173661/Spotify-Clone)
 
 [YouTube Video](https://www.youtube.com/watch?v=FK4YusHIIj0&t=0s)
+
+hosted on github pages [Soundwave](https://eojeah.github.io)
