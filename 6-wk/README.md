@@ -30,7 +30,7 @@ Resources:
 
 ### Binary Heaps
 
-- [Max Binary Heap](https://github.com/EOjeah/100DaysOfCode/blob/main/6-wk/images/max_binary_heap.png)
+- ![Max Binary Heap](https://github.com/EOjeah/100DaysOfCode/blob/main/6-wk/images/max_binary_heap.png)
 
 Binary heaps are quite useful when performing `comparative` operations like:
 
@@ -47,7 +47,7 @@ Heaps add value on the tree in order from left to right and then bubbles up if n
 
 A trie is a specialised type of tree used in searching, most often with text. Inmost cases, it can outperfoem BST, hash tables
 
-- [trie](https://github.com/EOjeah/100DaysOfCode/blob/main/6-wk/images/trie.png)
+- ![trie](https://github.com/EOjeah/100DaysOfCode/blob/main/6-wk/images/trie.png)
 
 Searching for letter `N` in the image above, and you already know that there are two words associated with the letter `N`, `NOT` and `NEWS`. Another name for a trie is prefix tree.
 
@@ -57,10 +57,10 @@ Complete Section 10: Data Structures: Trees
 
 ### Graphs - final data structure in the course
 
-- [graph ds](https://github.com/EOjeah/100DaysOfCode/blob/main/6-wk/images/graph_ds.png)
-- [graph directional](https://github.com/EOjeah/100DaysOfCode/blob/main/6-wk/images/directional_graphs.png)
+- ![graph ds](https://github.com/EOjeah/100DaysOfCode/blob/main/6-wk/images/graph_ds.png)
+- ![graph directional](https://github.com/EOjeah/100DaysOfCode/blob/main/6-wk/images/directional_graphs.png)
 
 Took the LinkedIn JS skills assessment, quite easy and got top 5% of +800k people
-[LinkedIn skills](https://github.com/EOjeah/100DaysOfCode/blob/main/6-wk/images/LinkedIn_js_skills_assessment.png)
+![LinkedIn skills](https://github.com/EOjeah/100DaysOfCode/blob/main/6-wk/images/LinkedIn_js_skills_assessment.png)
 
 it's 2am I better sleep now for meeting at 9am
