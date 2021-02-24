@@ -1,4 +1,4 @@
-day 36 Monday 22 Feb 2021
+## Day 36 Monday 22 Feb 2021
 
 Binary Search Tree
 Implement your BST with two methods, `insert` and `lookup`
@@ -17,7 +17,8 @@ Helped me debug a bug in my code which worked fine on paper but I put the return
 
 Basically the same solution as the instructor but with different variable names
 
-day 37 Tuesday 23 Feb 2021
+## Day 37 Tuesday 23 Feb 2021
+
 AVL tree and Red/Black trees are self balancing trees, not going to code them out but worth nothing how they balance themselves
 
 ![self balancing BST debug](https://github.com/EOjeah/100DaysOfCode/blob/main/6-wk/images/self_balancing_BST.png)
