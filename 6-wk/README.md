@@ -58,10 +58,52 @@ Complete Section 10: Data Structures: Trees
 
 ### Graphs - final data structure in the course
 
-- ![graph ds](https://github.com/EOjeah/100DaysOfCode/blob/main/6-wk/images/graph_ds.png)
-- ![graph directional](https://github.com/EOjeah/100DaysOfCode/blob/main/6-wk/images/directional_graphs.png)
+![graph ds](https://github.com/EOjeah/100DaysOfCode/blob/main/6-wk/images/graph_ds.png)
+![graph directional](https://github.com/EOjeah/100DaysOfCode/blob/main/6-wk/images/directional_graphs.png)
 
 Took the LinkedIn JS skills assessment, quite easy and got top 5% of +800k people
 ![LinkedIn skills](https://github.com/EOjeah/100DaysOfCode/blob/main/6-wk/images/LinkedIn_js_skills_assessment.png)
 
 it's 2am I better sleep now for meeting at 9am
+
+## Day 38 Wednesday 24 Feb 2021
+
+![graph representation](https://github.com/EOjeah/100DaysOfCode/blob/main/6-wk/images/edge_and_adj_graph.png)
+![adjacent matrix](https://github.com/EOjeah/100DaysOfCode/blob/main/6-wk/images/adjacent_matrix.png)
+
+[Udemy Excercise](https://www.udemy.com/course/master-the-coding-interview-data-structures-algorithms/learn/lecture/12371828#overview)
+
+solution
+
+[code](https://repl.it/@EOjeah/FlamboyantMellowPacket#index.js)
+Really easy to code this one, only functions required are to add vertices and edge with the function `addVertex(node)` and `addEdge(node1,node2)`
+
+![graph excercise](https://github.com/EOjeah/100DaysOfCode/blob/main/6-wk/images/graph_exercise.png)
+
+```javascript
+addVertex(node)  {
+    this.adjacentList[node] = []
+    this.numberOfNodes++;
+}
+addEdge(node1, node2) {
+    //undirected Graph
+    this.adjacentList[node1].push(node2)
+    this.adjacentList[node2].push(node1)
+}
+```
+
+Difficult to build graphs but there are tools like [Neo4j](https://neo4j.com/) which is a popular database to buid really fast databases
+
+Completed Data Structure Section next up Algorithms!
+
+### Introduction to Algorithms
+
+most common algorithms
+
+- Sorting
+- Dynamic Programming
+- BFS + DFS (Searching)
+- Recursion
+- Recursion
+
+Completed a few videos, next video is the exercise, finally some coding for tomorrow
