@@ -334,3 +334,196 @@ int value;
 float anotherOne = 3.3f;
 value = (int) anotherOne; // 3
 ```
+
+## Day 40 Friday 26 Feb 2021
+
+Java Pluralsight course
+learning about conditional statements and block statements - same as other programming languages
+
+can declare variables of same type using one line like
+
+```java
+int a = 2, b = 6, c = 9;
+```
+
+Conditional operators. Can use standard or conditional operators. Using `&` or `|` then both sides of the operator are evaluated, while `&&` and `||` can short circuit (no need to evaluate the right side of `||` if the left side it evaluated as `true`)
+
+Of the primitive data types, the `switch` statement can only be used with `int` and `char`
+
+### Arrays
+
+```java
+float[] theVals = new float[3]; // an array of three elements theVals[0], theVals[1] and theVals[2]
+//theVals.length = 3
+// can also declare with
+float[] anotherArray = {10.0f, 11.1f, 9.1f}; // declare and initialise
+
+// for-each loop
+float sum = 0.0f;
+for (float value: theVals)
+    sum += value;
+// don't always need {} if there is only one statement after things like if, foor, while etc
+```
+
+### Understanding Methods (or functions)
+
+```java
+static void doSomething(){
+    System.out.println("function did something")
+}
+```
+
+![command line argument](https://github.com/EOjeah/100DaysOfCode/blob/main/6-wk/images/command_line_arg.png)
+
+```java
+    static void handleCommandLine(String[] args){
+        char opCode = args[0].charAt(0); //convert single string to character
+        double leftVal  = Double.parseDouble(args[1]);
+        double rightVal = Double.parseDouble(args[2]);
+    }
+```
+
+### Working with Strings
+
+```java
+String name  = "Jim";
+```
+
+![Immutable strings](https://github.com/EOjeah/100DaysOfCode/blob/main/6-wk/images/strings_immutable.png)
+
+![Strings Equality](https://github.com/EOjeah/100DaysOfCode/blob/main/6-wk/images/strings_equality.png)
+
+![Strings Intern](https://github.com/EOjeah/100DaysOfCode/blob/main/6-wk/images/string_intern.png)
+
+In the diagram above, when you create String `s3`, java will check if there is already an intern version of that string (no) then it will create one. So after declaring `s4`, java checks if there is an intern version of `I Love Java` (yes, from `s3`) and references the same intern value. Now you can compare `s3` and `s4` with `if (s3 == s4) //true`
+
+![Strings Intern](https://github.com/EOjeah/100DaysOfCode/blob/main/6-wk/images/string_class_methods.png)
+
+Virtually all data types can be converted into a string
+
+```java
+int iVal = 100;
+String sVal = String.valueOf(iVal); // "100"
+```
+
+Get input from command line using the Scanner class from java.util.Scanner
+
+```java
+import java.util.Scanner;
+Scanner scanner = new Scanner(System.in);
+String userInput = scanner.nextLine(); // read all the input from the user until they hit the enter key
+String[] parts = userInput.split(" ")
+```
+
+#### StringBuilder class
+
+![Strings builder](https://github.com/EOjeah/100DaysOfCode/blob/main/6-wk/images/string_builder.png)
+![Strings builder 2](https://github.com/EOjeah/100DaysOfCode/blob/main/6-wk/images/string_builder_2.png)
+
+### String Formatting
+
+```java
+String name = "Emmanuel";
+int age = "99"
+System.out.printf("my name is %s", name);
+//or
+String s = String.format("my age is %d", age);
+
+// You can use the # Format Flag to display an integer with the base notation e.g
+int iVal = 32;
+String s1 = String.format("%d", iVale);  // 32
+String s2 = String.format("%x", iVale);  // 20 which hexadecidemal for 32
+String s3 = String.format("%#x", iVale); // 0x20 lowercase x
+String s4 = String.format("%#X", iVale); // 0X20 UPPERCASE X
+```
+
+```java
+int w = 5, x = 234, y = 542, z = 12;
+s1 = String.format("W:%d X:%d", w, x); // W:5 X:234
+s2 = String.format("Y:%d Z:%d", y, z); // Y:542 Z:12
+
+// Take a width of 4 and right-justify in the output
+s3 = String.format("W:%4d X:%4d", y, z); // W:   5 X: 234
+s4 = String.format("Y:%4d Z:%4d", y, z); // Y: 542 Z:  12
+
+// you call add leading 0's
+s3 = String.format("W:%04d X:%04d", y, z); // W:0005 X:0234
+s4 = String.format("Y:%04d Z:%04d", y, z); // Y:0542 Z:0012
+
+//left-justify with - flag
+s3 = String.format("W:%-4d X:%-4d", y, z); // W:5    X:234
+s4 = String.format("Y:%-4d Z:%-4d", y, z); // Y:542  Z:12
+```
+
+```java
+//Grouping Values
+int iVal = 5123456;
+s1 = String.format("%d", iVal);  // 5123456
+s2 = String.format("%,d", iVal); // 5,123,456
+
+//also fo float/doubles;
+double dVal = 5123456.0d;
+s3 = String.format("%,.2f", dVal); // 5,123,456.00
+```
+
+![Format Flags](https://github.com/EOjeah/100DaysOfCode/blob/main/6-wk/images/format_flags.png)
+
+```java
+int val1 = 123, val2 = -456
+s1 = String.format("%d", val1); // 123
+s2 = String.format("%d", val2); // -456
+
+s3 = String.format("% d", val1); //  123 Note the leading space where a positive sign would be
+s4 = String.format("% d", val2); // -456
+
+s5 = String.format("%+d", val1); // +123 Always show a sign regardless
+s6 = String.format("%+d", val2); // -456
+
+s5 = String.format("%(d", val1);  // 123
+s6 = String.format("%(d", val2);  // (456)
+s7 = String.format("% (d", val1); //  123
+
+//Argument index with number$ 1-indexed
+s3 = String.format("W:%1$d X:%2$d", y, z);
+```
+
+### More About Data Types
+
+In java, use the `Instant` class to track time of events
+
+- Optimized for time stamping events
+- Works well for relative time comparisons
+- Can be converted to more complex date/time types
+
+```java
+public static void checkRelationship(Instance otherInstant) {
+    // compareTo() will return a negative, 0 or positive value indicating how the instant's relate to each other
+    Instant nowInstant = Instant.now();
+    if (otherInstant.compareTo(nowInstant) > 0)
+        System.out.println("otherInstant is in the future");
+    else if (otherInstant.compareTo(nowInstant) < 0)
+        System.out.println("otherInstant is in the past");
+    else
+        System.out.println("Instant is now");
+}
+
+```
+
+![Local Human readable time](https://github.com/EOjeah/100DaysOfCode/blob/main/6-wk/images/local_hm_time.png)
+
+There is also a `ZonedDateTime` class similar to `LocalDateTime` but understands time zones
+
+```java
+import java.time.LocalDate;
+LocalDate today = LocalDate.now();
+DateTimeFormatter ukDateFormat = DateTimeFormatter.ofPattern("dd-MM-yyyy");
+System.out.println(today.format(ukDateFormat)); // 26-02-2021
+//DateTimeFormatter can be used to parse dates
+
+
+// primitive data type wrapper
+Double number  = Double.parseDouble("23"); // number = 23.0;
+```
+
+![DateTimeFormatter](https://github.com/EOjeah/100DaysOfCode/blob/main/6-wk/images/date_time_formatter.png)
+Summary - complete [Getting Started with Programming in Java](https://app.pluralsight.com/library/courses/getting-started-programming-java/table-of-contents)
