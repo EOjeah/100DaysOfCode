@@ -32,7 +32,3 @@ Cluster.prototype.createDataBag = function (stack) {
   };
   return role;
 };
-
-const cluster = new Cluster('neo', 'prod', 'EMEA');
-
-console.log(cluster.createRole('elasticsearch'));
