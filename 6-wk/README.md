@@ -9,7 +9,7 @@ make the lookup function return the node you're looking for and if it doesn't fi
 
 ![Chrome debug](https://github.com/EOjeah/100DaysOfCode/blob/main/6-wk/images/chrome_js_debug.png)
 
-![Chrome debug](https://github.com/EOjeah/100DaysOfCode/blob/main/6-wk/images/inspect_window.png)
+![Chrome inspect window](https://github.com/EOjeah/100DaysOfCode/blob/main/6-wk/images/inspect_window.png)
 
 Helped me debug a bug in my code which worked fine on paper but I put the return statement in my `while` block instead of outside.
 
@@ -527,3 +527,15 @@ Double number  = Double.parseDouble("23"); // number = 23.0;
 
 ![DateTimeFormatter](https://github.com/EOjeah/100DaysOfCode/blob/main/6-wk/images/date_time_formatter.png)
 Summary - complete [Getting Started with Programming in Java](https://app.pluralsight.com/library/courses/getting-started-programming-java/table-of-contents)
+
+## Day 41 Saturday 27 Feb 2021
+
+Mozilla docs
+
+[A re-introduction to JavaScript(tuturial)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript)
+
+in Javascript, you can look over arrays using `for`...`of` or `for`...`in`
+
+> `for`...`of` will iterate through the arrays values while `for`...`in` will iterate through the Arrays indices
+
+read more about Objects in javascript, concepts like `this` or `object.apply(null, obj)` and `object.call()`
