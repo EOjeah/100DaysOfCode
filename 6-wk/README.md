@@ -528,7 +528,7 @@ Double number  = Double.parseDouble("23"); // number = 23.0;
 ![DateTimeFormatter](https://github.com/EOjeah/100DaysOfCode/blob/main/6-wk/images/date_time_formatter.png)
 Summary - complete [Getting Started with Programming in Java](https://app.pluralsight.com/library/courses/getting-started-programming-java/table-of-contents)
 
-## Day 41 Saturday 27 Feb 2021
+## Day 41 Saturday 27 Feb 2021 & Day 42 Sunday 28 Feb 2021
 
 Mozilla docs
 
@@ -539,3 +539,13 @@ in Javascript, you can look over arrays using `for`...`of` or `for`...`in`
 > `for`...`of` will iterate through the arrays values while `for`...`in` will iterate through the Arrays indices
 
 read more about Objects in javascript, concepts like `this` or `object.apply(null, obj)` and `object.call()`
+
+Bubbling and capturing explained!!! look on the mozilla docs [HERE](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events)
+
+show-video-box.html
+
+![Bubbling and Capturing](https://github.com/EOjeah/100DaysOfCode/blob/main/6-wk/images/bubbling-capturing.png)
+
+> By default all event handlers are registered in the bubbling phase, and this makes more sense most of the time. If you really want to register an event in the capturing phase instead, you can do so by registering your handler using addEventListener(), and setting the optional third property to true.
+
+Read [How JavaScript Event Delegation Works by David Walsh](https://davidwalsh.name/event-delegate)
