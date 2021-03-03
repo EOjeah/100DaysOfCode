@@ -185,3 +185,72 @@ lookup `static` in classes. Accessing properties of classes or objects without i
 ![Date Object](https://github.com/EOjeah/100DaysOfCode/blob/main/7-wk/images/date_object.png)
 
 Learned about javascript built in objects including `Math`, `RegEx` and `Date`
+
+## Day 44 Tuesday 2 March 2021
+
+[Udemy DS and Algorithms](https://www.udemy.com/course/master-the-coding-interview-data-structures-algorithms/learn/lecture/12394024#overview)
+
+First excercise, find factorial of a number using recursion and loops
+
+[code](https://repl.it/@EOjeah/EvilMustyLearning#index.js)
+
+Recursion
+
+```javascript
+function factorial(number) {
+  //code here
+  if (number <= 1) return 1;
+  return number * factorial(number - 1);
+}
+```
+
+```javascript
+function findFactorialIterative(number) {
+  //code here
+  if (number <= 1) return 1;
+  let answer = 1;
+  for (let i = number; i > 1; i--) {
+    answer *= i;
+  }
+  return answer;
+}
+```
+
+Next exercise is [Here](https://repl.it/@aneagoie/Recursion-fibonacci)
+
+```javascript
+// Given a number N return the index value of the Fibonacci sequence, where the sequence is:
+
+// 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144 ...
+// the pattern of the sequence is that each value is the sum of the 2 previous values, that means that for N=5 → 2+3
+
+//For example: fibonacciRecursive(6) should return 8
+
+function fibonacciIterative(n) {
+  //code here;
+}
+fibonacciIterative(3);
+
+function fibonacciRecursive(n) {
+  //code here;
+}
+
+fibonacciRecursive(3);
+```
+
+Took me a while but solved it recursively, almost gave up to watch the solution video but all i needed was patience...
+[repl.it](https://repl.it/@EOjeah/AdmiredAdmiredSpecialist#index.js)
+
+Much easier solution below but HORRIBLE time complexity O(2^n) so my solutions better, instructor might provide an optimised solution like mine but hasn't done yet. Probably in Dynamic programming or memoization
+
+```javascript
+function fb(n) {
+  if (n < 2) {
+    return n;
+  }
+  return fb(n - 1) + fb(n - 2);
+}
+// more info on diagram below, terrible tim complexity, my solution on repl.it uses memoization and O(n) space and time complexity
+```
+
+![fibionacci recursive](https://github.com/EOjeah/100DaysOfCode/blob/main/7-wk/images/fb_diagram.png)
