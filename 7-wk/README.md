@@ -186,7 +186,7 @@ lookup `static` in classes. Accessing properties of classes or objects without i
 
 Learned about javascript built in objects including `Math`, `RegEx` and `Date`
 
-## Day 44 Tuesday 2 March 2021
+## Day 45 Wednesday 3 March 2021
 
 [Udemy DS and Algorithms](https://www.udemy.com/course/master-the-coding-interview-data-structures-algorithms/learn/lecture/12394024#overview)
 
