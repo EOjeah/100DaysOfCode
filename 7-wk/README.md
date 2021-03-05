@@ -254,3 +254,12 @@ function fb(n) {
 ```
 
 ![fibionacci recursive](https://github.com/EOjeah/100DaysOfCode/blob/main/7-wk/images/fb_diagram.png)
+
+## Day 46 Thursday 4 March 2021
+
+React redux course on Pluralsight
+Redux - state mangement library for javascript and learned how to use reduxwith react, complex boilerplate but I just need to understand the pattern and how all the different redux component fit together
+
+Second time watching this video and found it easier to follow
+
+[Connecting React to Redux](https://app.pluralsight.com/library/courses/react-redux-react-router-es6/table-of-contents)
