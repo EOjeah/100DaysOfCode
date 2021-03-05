@@ -263,3 +263,15 @@ Redux - state mangement library for javascript and learned how to use reduxwith 
 Second time watching this video and found it easier to follow
 
 [Connecting React to Redux](https://app.pluralsight.com/library/courses/react-redux-react-router-es6/table-of-contents)
+
+## Day 47 Friday 5 March 2021
+
+Patiently waiting to start exercising again at the gym, deployed a gym opening countdown to my website
+
+[Gym countdown!](https://eojeah.app)
+
+Learned some time manipulation with Javascript and had to relearn some css which i thought i knew
+
+Automated code deployment with github actions and hosting on firebase
+
+website gets automatically deployed after pushing to the repos `main` branch on GitHub
