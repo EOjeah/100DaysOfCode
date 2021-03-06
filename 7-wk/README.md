@@ -275,3 +275,11 @@ Learned some time manipulation with Javascript and had to relearn some css which
 Automated code deployment with github actions and hosting on firebase
 
 website gets automatically deployed after pushing to the repos `main` branch on GitHub
+
+## Day 48 Saturday 6 March 2021
+
+Java - [Working with Classes and Interfaces in Java on Pluralsight](https://app.pluralsight.com/library/courses/working-classes-interfaces-java/table-of-contents)
+
+To continue from Implementing Class Constructors and Initializers - Constructor Chaining
+
+Learned aboout how to construct classes in Java, access modifiers `get` and `set` methods, `private` and `public` methods or class properties
