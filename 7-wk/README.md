@@ -283,3 +283,25 @@ Java - [Working with Classes and Interfaces in Java on Pluralsight](https://app.
 To continue from Implementing Class Constructors and Initializers - Constructor Chaining
 
 Learned aboout how to construct classes in Java, access modifiers `get` and `set` methods, `private` and `public` methods or class properties
+
+## Day 49 Sunday 7 March 2021
+
+Introduction to Sorting [Udemy Course](https://www.udemy.com/course/master-the-coding-interview-data-structures-algorithms/learn/lecture/12397104#overview)
+
+Common sorting algorithms
+
+- Bubble Sort
+- Insertion Sort
+- Selection Sort
+- Merge Sort
+- Quick Sort
+
+Why is sorting important for companies? Look at JS for example, how does this built in `sort` method work
+
+![JavaScript sorting numbers](https://github.com/EOjeah/100DaysOfCode/blob/main/7-wk/images/js_sort.png)
+
+[Sorting Algorithms Animations](https://www.toptal.com/developers/sorting-algorithms)
+
+Tool in the link above is used to visualize time comlexity of different sorting algorthms based on what the inputs are, for example, if an input is completely random, unique, nearly sorted, reversed, etc...
+
+![Sorting Algorithms Animations](https://github.com/EOjeah/100DaysOfCode/blob/main/7-wk/images/sorting_algorithms_animation.png)
