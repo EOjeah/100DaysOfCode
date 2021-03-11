@@ -89,3 +89,14 @@ axios.get([
     console.log(responseArray[1].data);
 })
 ```
+
+## Day 51 Tuesday 9 March 2021
+
+[Linux Encryption Security](https://app.pluralsight.com/library/courses/linux-encryption-security-lpic-3-303/table-of-contents)
+
+need to fill in some knowledge gap in my team, security is a vital skill as a DevOps engineer building and maintaining services. 
+https://bootstrap-it.com/encryption
+
+Generat certificate signing request (CSR) with whcih you can get site certificates from trusted authorities
+
+Not sure about this... don't really understand the course, will try again another time
