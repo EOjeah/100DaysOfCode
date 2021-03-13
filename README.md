@@ -56,7 +56,7 @@ Use this repository to document everything you learn during the #100DaysOfCode i
   - [Master the Coding Interview](https://www.udemy.com/course/master-the-coding-interview-data-structures-algorithms/)
 - freeCodeCamp
   - _list here_
-- [Just Javascript](justjavascript.com). Claims he'll help draw a mental model that will help in learning Javascript and does that really well!!. I wasn't sure how an incomplete book (sent as chapters via email) was goig to help but this is by far the best resource to help create that mental model for Javascript. Hopefully he has time to complete the book. by Dan Abramov, creator of Redux and co creator of create-react-app
+- [Just Javascript](https://www.justjavascript.com). Claims he'll help draw a mental model that will help in learning Javascript and does that really well!!. I wasn't sure how an incomplete book (sent as chapters via email) was goig to help but this is by far the best resource to help create that mental model for Javascript. Hopefully he has time to complete the book. by Dan Abramov, creator of Redux and co creator of create-react-app
 
 ## Managment
 
