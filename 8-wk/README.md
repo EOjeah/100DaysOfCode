@@ -107,7 +107,21 @@ Generat certificate signing request (CSR) with whcih you can get site certificat
 
 Not sure about this... don't really understand the course, will try again another time
 
-## Day 52 Wednesday 10 March 2021
+## Day 52 & 53 10-11 March 2021
 
 learning typescript
 [Typescript Handbook](https://www.typescriptlang.org/assets/typescript-handbook.pdf)
+
+learning the basics on Typescript, decided to work on a project as this is the best way to learn.
+
+Programming language for the project is Typescipt, other tech used 
+- GraphQL
+- APM and logging with Elasticsearch
+
+The typecript handbook is good for javascript developers,not very long, still reading and will have to read a few times just to fully understand the main concepts
+
+## Day 54 Friday 12 March 2021
+
+Looking through the code base of the project i'm going to work on and there's a lot of javascript/typescript I need to understand so decided to read more js docs from Mozilla before continuing with the Typescript handbook
+
+[Javascript Guide - Indexed Collections](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Indexed_collections)
