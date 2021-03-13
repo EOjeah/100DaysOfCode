@@ -4,7 +4,7 @@
 
 The image below makes up thge entire http module for Node
 
-![Http module](8-wk/images/http_module.png)
+![Http module](images/http_module.png)
 
 What are streams and event emitters? Take a look at the code below
 
@@ -19,7 +19,7 @@ server.on('request', (request, response) => {});
 
 Events can be emitted with parameters. Hypothetically, if we wanted to, we can register multiple handler functiosn for a single event, see below
 
-![Event emitters](8-wk/images/event_emitters.png)
+![Event emitters](images/event_emitters.png)
 
 In this case, everytime a requets came in, our server will emit the 'request' event and alll our listener functions will be triggered
 
@@ -27,7 +27,7 @@ In this case, everytime a requets came in, our server will emit the 'request' ev
 
 When working with node, whether you're reading a file from a file system or maing an API request, we'll often have access to data asynchronously or piece by piece
 
-![Node url](8-wk/images/url_module.png)
+![Node url](images/url_module.png)
 
 ```javascript
 ...
@@ -79,7 +79,7 @@ response.end();
 
 For working with file uplaoding in Node, checkout `formidable` js library used to work with file uploads
 
-![Sungle file upload](8-wk/images/single_file_upload.png)
+![Sungle file upload](images/single_file_upload.png)
 
 When working with http and node, better to use the `axios` package,
 one method that might be helpful is the `axios.all([])` which accepts an array on axios requests and responds with an array promise
