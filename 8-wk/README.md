@@ -114,7 +114,8 @@ learning typescript
 
 learning the basics on Typescript, decided to work on a project as this is the best way to learn.
 
-Programming language for the project is Typescipt, other tech used 
+Programming language for the project is Typescipt, other tech used
+
 - GraphQL
 - APM and logging with Elasticsearch
 
@@ -125,3 +126,9 @@ The typecript handbook is good for javascript developers,not very long, still re
 Looking through the code base of the project i'm going to work on and there's a lot of javascript/typescript I need to understand so decided to read more js docs from Mozilla before continuing with the Typescript handbook
 
 [Javascript Guide - Indexed Collections](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Indexed_collections)
+
+## Day 55 Saturday 13 March 2021
+
+Reading more mozilla docs for javascript, focusing more on objects and classes. Understanding the prototype chain on javascript objects.
+
+[Details of the Object model](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Details_of_the_Object_Model)
